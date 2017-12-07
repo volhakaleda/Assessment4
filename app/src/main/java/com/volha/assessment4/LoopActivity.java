@@ -14,6 +14,6 @@ public class LoopActivity extends AppCompatActivity {
     TextView textView = findViewById(R.id.text);
 
     CustomAsync customAsync = new CustomAsync(textView, this);
-    customAsync.execute(100);
+    customAsync.execute(100000);
   }
 }
