@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
   private static final String EDIT_TWO_KEY = "edit2";
   private static final String CHECK_BOX_KEY = "check";
 
-  private static final String EMAIL_KEY = "email";
+  public static final String EMAIL_KEY = "email";
 
 
   @Override
